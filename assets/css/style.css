@@ -250,6 +250,13 @@ h6 {
   background: url("../img/linklab-bg.png") top center;
   background-size: cover;
 }
+#midi {
+  width: 100%;
+  height: 100vh;
+  background: url("../img/miditec-bg.png") top center;
+  background-size: cover;
+}
+
 #hero:before {
   content: "";
   background: rgba(5, 13, 24, 0.3);
