@@ -20,7 +20,58 @@ body {
     font-family: 'Poppins';font-size: 22px;
 }
 </style>
-
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .sidebar {
+            height: 100%;
+            width: 250px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            background-color: #333;
+            padding-top: 20px;
+        }
+        .sidebar a {
+            padding: 15px 25px;
+            text-decoration: none;
+            font-size: 18px;
+            color: white;
+            display: block;
+        }
+        .sidebar a:hover {
+            background-color: #575757;
+        }
+        .dropdown-btn {
+            background-color: #333;
+            border: none;
+            padding: 15px 25px;
+            font-size: 18px;
+            color: white;
+            cursor: pointer;
+            display: block;
+            width: 100%;
+            text-align: left;
+            outline: none;
+        }
+        .dropdown-btn:hover {
+            background-color: #575757;
+        }
+        .dropdown-container {
+            display: none;
+            background-color: #444;
+        }
+        .dropdown-container a {
+            padding: 15px 35px;
+        }
+        .sidebar .active {
+            background-color: #575757;
+        }
+    </style>
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
@@ -53,41 +104,76 @@ body {
    <nav id="navbar" class="nav-menu navbar">
     <ul>
      <li><a href="#hero" class="nav-link scrollto active"><span>IN&Iacute;CIO</span></a></li>
-     <li><a href="#linklab" class="nav-link scrollto"> <span>LINKLAB</span></a></li>
-     <li><a href="#metodologia" class="nav-link scrollto"> <span>Metodologia</span></a></li>
-     <li><a href="#corporates" class="nav-link scrollto"> <span>Corporates</span></a></li>
-     <li><a href="#jornada" class="nav-link scrollto"><span>Jornada</span></a></li>
-     <li><a href="#eventos" class="nav-link scrollto"><span>Eventos</span></a></li>
-     <li><a href="#contato" class="nav-link scrollto"><span>Contato</span></a></li>
+     <li><a href="#miditec" class="nav-link scrollto"> <span>MIDITEC</span></a></li>
+     <li><a href="#acate_startups" class="nav-link scrollto"> <span>ACATE STARTUPS</span></a></li>
+     <li><a href="#aprendizado" class="nav-link scrollto"> <span>-- Aprendizado continuo</span></a></li>
+     <li><a href="#networking" class="nav-link scrollto"> <span>-- Networking</span></a></li>
+     <li><a href="#mentores" class="nav-link scrollto"> <span>-- Acesso a mentores</span></a></li>
+     <li><a href="#feedbacks" class="nav-link scrollto"> <span>-- Feedback e validação</span></a></li>
+     <li><a href="#perks" class="nav-link scrollto"> <span>-- Perks e convênios</span></a></li>
     </ul>
    </nav><!-- .nav-menu -->
  </div>
 </header><!-- End Header -->
 
 <section id="hero" class="d-flex flex-column justify-content-center align-items-center"><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+      <h1> <span class="typed" data-typed-items="MIDITEC, Verticais de Neg&oacute;cios, ACATE Startups, LinkLab, GT Mulheres, GT Internacionalização, GT Investimento"></span></h1>
 
 </section><!-- End Hero -->
 
   <main id="main">
-   <section id="linklab" class="portfolio section-bg">
-    <img src="img/ll1.svg">
-   </section>
+
+
+
+  <!-- MIDITEC -->
+   <section id="miditec" class="portfolio section-bg" data-aos="fade-up">
+    <img src="img/miditec/01.svg">
+    <img src="img/miditec/02.svg">
+    <img src="img/miditec/03.svg">
+    <img src="img/miditec/04.svg">
+    <img src="img/miditec/05.svg">
+    <img src="img/miditec/06.svg">
+    <img src="img/miditec/07.svg">
+    <img src="img/miditec/08.svg">
+   <br/>
+   </section>  
+   <section id="acate_startups" class="portfolio section-bg" data-aos="fade-up">
+    <img src="img/acate-startups/as1.svg">
+    <img src="img/acate-startups/as2.svg">
+    <img src="img/acate-startups/as3.svg">
+   </section> 
+   <section id="aprendizado" class="portfolio section-bg" data-aos="fade-up">
+    <img src="img/acate-startups/as4.svg">
+    <img src="img/acate-startups/as5.svg">
+    <img src="img/acate-startups/as6.svg">
+   <br/>
+   </section> 
+   <section id="networking" class="portfolio section-bg" data-aos="fade-up">
+    <img src="img/acate-startups/as7.svg">
+   <br/>
+   </section> 
+   <section id="mentores" class="portfolio section-bg" data-aos="fade-up">
+    <img src="img/acate-startups/as8.svg">
+    <img src="img/acate-startups/as9.svg">
+   </section> 
+   <section id="feedbacks" class="portfolio section-bg" data-aos="fade-up">
+    <img src="img/acate-startups/as10.svg">
+   </section> 
+
+   <section id="perks" class="portfolio section-bg" data-aos="fade-up">
+    <img src="img/acate-startups/as11.svg">
+    <img src="img/acate-startups/as12.svg"> 
+   </section> 
   <!-- GTS -->
-    <section id="metodologia" class="resume">
-     <img src="img/ll2.svg" width="100%">  
+    <section id="gt_mulheres" class="resume">
+     <img src="img/gt-mulheres.svg" width="100%">  
     </section>
-    <section id="corporates" class="resume">
-     <img src="img/ll3.svg" width="100%">  
+    <section id="gt_internacionalizacao" class="resume">
+     <img src="img/gt-internacionalizacao.svg" >  
     </section>
-    <section id="jornada" class="resume">
-     <img src="img/ll4.svg" width="100%">  
+    <section id="gt_investimento" class="resume">
+     <img src="img/gt-investimentos.svg">  
     </section>  
-    <section id="eventos" class="resume">
-     <img src="img/ll5.svg" width="100%">  
-    </section>  
-    <section id="contato" class="resume">
-     <img src="img/ll6.svg" width="100%">  
-    </section>          
   <!-- GTS -->
   <!-- CONTATO -->
     <section id="contato" class="contact">
@@ -170,6 +256,14 @@ if(document.fullscreenEnabled || document.webkitFullscreenEnabled) {
     }
   }
 }
+</script>
+<script>
+    var dropdown = document.querySelector(".dropdown-btn");
+    var dropdownContent = document.querySelector(".dropdown-container");
+
+    dropdown.addEventListener("click", function() {
+        dropdownContent.style.display = dropdownContent.style.display === "block" ? "none" : "block";
+    });
 </script>
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
